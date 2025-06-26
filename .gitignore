@@ -1,16 +1,14 @@
+# Terraform
 .terraform/
 *.tfstate
 *.tfstate.backup
+*.tfstate.lock.info
 crash.log
-.terraform.lock.hcl.backup
-/shared-environment/.terraform
-/bootstrap/.terraform
-./shared-environment/.terraform
-./bootstrap/.terraform
 
-# Terraform lock files
+# Terraform lock files  
 .terraform.lock.hcl
 
 # Terraform variable files (often contain sensitive data)
 terraform.tfvars
 *.auto.tfvars
+*.tfvars
