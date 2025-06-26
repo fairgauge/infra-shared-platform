@@ -109,7 +109,7 @@ variable "enable_management_subnets" {
 variable "nat_gateway_count" {
   description = "Number of NAT Gateways (1 for cost optimization)"
   type        = number
-  default     = 1
+  default     = 0
 }
 
 variable "enable_vpc_endpoints" {

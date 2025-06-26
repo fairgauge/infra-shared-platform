@@ -27,7 +27,7 @@ enable_rds_monitoring_role = false  # Skip for now
 vpc_cidr = "10.0.0.0/16"
 
 # Cost optimizations
-nat_gateway_count     = 1     # Single NAT Gateway (~$45/month vs $135 for 3)
+nat_gateway_count     = 0     # Single NAT Gateway (~$45/month vs $135 for 3)
 enable_vpc_endpoints  = false # Skip VPC endpoints (~$7/month each)
 enable_flow_logs      = false # Skip flow logs (CloudWatch costs)
 enable_management_subnets = false # Skip management subnets
